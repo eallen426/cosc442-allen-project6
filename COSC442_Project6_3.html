@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.phptravels.net/" />
+<title>user_FlightSearch</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">user_FlightSearch</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'My Account')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Login')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=username</td>
+	<td>user@phptravels.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>demouser</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>My Account</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//img[contains(@src,'https://www.phptravels.net/themes/default/assets/img/icons/flight.png')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=airports-inline-orig-7d50b99b-1296-4d67-88ef-e7fae091c007</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=airports-inline-orig-7d50b99b-1296-4d67-88ef-e7fae091c007</td>
+	<td>BWI</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=airports-inline-dest-7d50b99b-1296-4d67-88ef-e7fae091c007</td>
+	<td>MKE</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'DVhbCERv')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=search-for-flights-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h4.sr-filters__heading &gt; span.ng-scope</td>
+	<td>Filter Results</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
